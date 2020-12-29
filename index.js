@@ -12,7 +12,6 @@ function printString(myString) {
     return (str.length < 2) ? str : reverseString(str.substring(1)) + str[0];
   };
 
-<<<<<<< HEAD
   function isPalindrome(str) {
     let strLength = str.length;
 
@@ -32,7 +31,6 @@ function printString(myString) {
     return idx ? arr[idx] + addUpTo(arr, --idx) : arr[idx];
   };
 =======
-<<<<<<< HEAD
   const reverseString = (str) => {
     console.log(str);
   };
